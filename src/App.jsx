@@ -25,7 +25,7 @@ function App() {
   }
 
   /* 국가 추가 버튼 클릭 시*/
-  const addMedalTable = () => {ㅋ
+  const addMedalTable = () => {
     const newMedalData = {
       country,
       gold,
