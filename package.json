@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://euncloud.github.io/02.react-project_medal-site/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
