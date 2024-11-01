@@ -1,0 +1,168 @@
+.background-div{
+  background-color: rgb(246, 247, 250);
+  border-radius: 10px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1200px;
+  min-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  /* height: 90vh; */
+  margin-top: 30px;
+  padding: 30px 15px 25px 15px;
+}
+
+.title-div{
+  color: rgb(30, 30, 119);
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-button-div{
+  width: 100%;
+  height: 80px;
+}
+
+#medal-form{
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  width: 20%; 
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button-div button {
+  height: 38px;
+  width: 8%;
+  min-width: 84px;
+  padding: 10px;
+  margin-top: 24px;
+  background-color: #3094ff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006bdd;
+}
+
+/*selectbox*/
+.select-box-div{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 8px;
+}
+
+.select-box-div select{
+  margin-right: 1.5%;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.select-box-div select:focus{
+  outline: none;
+  border-color: #756cfd;
+  box-shadow: 0 0 5px rgba(0, 115, 230, 0.2);
+}
+
+.select-box-div select option[disabled] {
+  color: #999;
+}
+
+/*medal-table-div*/
+.medal-table-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.medal-table{
+  width: 97.5%;
+  font-size: 15px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.medal-table thead tr {
+  background-color: #756cfd;  
+  color: #ffffff;             
+  text-align: center;           
+}
+
+.medal-table th, .medal-table td {
+  padding: 10px 10px;         /* 셀 여백 */
+  border: 1px solid #dddddd;  /* 셀 테두리 색상 */
+}
+
+.medal-table tbody tr {
+  background-color: #efeff0;  /* 본문 행 배경색 */
+}
+
+.medal-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;  /* 짝수 행 배경색 */
+}
+
+.medal-table tbody tr:hover {
+  background-color: #e3e2fc;     /* 마우스 오버 시 배경색 */
+}
+
+.medal-table tbody td {
+  padding: 0px;
+  text-align: center;         /* 셀 내부 텍스트 중앙 정렬 */
+  height: 40px;
+}
+
+.medal-table button{
+  height: 30px;
+  width: 60px;
+  background-color: #fa517b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.medal-table button:hover{
+  cursor: pointer;
+  background-color: #cf4160; 
+  box-shadow: 0 2px 5px rgba(226, 35, 137, 0.534); 
+}
