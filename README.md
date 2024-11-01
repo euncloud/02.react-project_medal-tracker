@@ -30,7 +30,7 @@ React, CSS
 
 
 ### 🚀 Getting Started
-https://euncloud.github.io/02.react-project_medal-site
+[https://euncloud.github.io/02.react-project_medal-site](https://euncloud.github.io/02.react-project_medal-tracker/)
 <br>
 
 
