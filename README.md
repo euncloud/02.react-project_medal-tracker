@@ -23,9 +23,9 @@ React, CSS
 - React 작동 기본 원리
 - useState
 - 컴포넌트 분리
-  Header.jsx 
-  Sort.jsx : 테이블 정렬 방식을 변경하는 컴포넌트
-  Table.jsx : 메달 획득 수 데이터를 테이블로 그려주는 컴포넌트
+  -- Header.jsx 
+  -- Sort.jsx : 테이블 정렬 방식을 변경하는 컴포넌트
+  -- Table.jsx : 메달 획득 수 데이터를 테이블로 그려주는 컴포넌트
 
 
 
