@@ -4,7 +4,7 @@
 
 
 ## 🖼️ Screenshots
-![Olympic Medal Tracker 화면 예시](public/medal-tracker.png)
+![Olympic Medal Tracker 화면 예시](medal-tracker.png)
 
 
 
