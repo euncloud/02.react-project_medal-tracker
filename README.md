@@ -1,32 +1,32 @@
-# Project Name 🎉
+### Project Name 🎉
 > Olympic Medal Tracker
 > 국가별 메달 획득 수를 기록하고, localstorage에 저장 / 수정/삭제할 수 있다
 
 
-## 🖼️ Screenshots
+### 🖼️ Screenshots
 
 
 
 
 
-## 🔥 Features
+### 🔥 Features
 - **CRUD** - 폼에 입력된 데이터를 사용하여 국가별 메달 집계를 관리합니다. CRUD(Create, Read, Update, Delete) 기능을 통해 국가별 데이터를 추가, 조회, 수정, 삭제할 수 있어야 합니다.
 - **localstrage** - 데이터를 로컬 스토리지에 저장하여 새로고침해도 정보가 유지되도록 합니다.
 
 
-## 📚 Technologies
+### 📚 Technologies
 React, CSS
 
 
 
-## 💡 Lessons Learned
+### 💡 Lessons Learned
 - React 작동 기본 원리
 - useState
 - 컴포넌트 분리
 
 
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 
 
